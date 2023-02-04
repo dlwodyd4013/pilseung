@@ -18,11 +18,11 @@ $(function () {
 
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 250) {
-            $('#topBtn').fadeIn();
-        } else {
-            $('#topBtn').fadeOut();
-        }
+        // if ($(this).scrollTop() > 250) {
+        //     $('#topBtn').fadeIn();
+        // } else {
+        //     $('#topBtn').fadeOut();
+        // }
     });
 
     $("#topBtn").click(function () {

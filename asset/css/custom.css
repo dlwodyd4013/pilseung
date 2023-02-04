@@ -44,7 +44,7 @@ a#topBtn {
     text-decoration: none;
     position: fixed;
     bottom: 120px;
-    right: 40px;
+    right: 75px;
     width: 60px;
     height: 60px;
     /* color: #4f8397; */
@@ -78,12 +78,12 @@ a#topBtn:hover {
     background: rgba(79, 131, 151, .7); */
     background: #fff;
     color: #331b00; 
-    /* color: #4d9bbe; */
+    /* color: #4d9bbe;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1); */
 }
 
 /* .main-menu .menu-item a::after {
@@ -341,11 +341,12 @@ element.style {
 }
 
 .help .help-item .inform .description {
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 17px;
+    line-height:2;
     color: grey;
     margin-top: 5px;
 }
+
 
 .subheading{
    letter-spacing: 3px;
@@ -670,4 +671,56 @@ a:hover{
  		font-size: 0.7rem !important;
  }
  
+}
+
+
+
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20% !important;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+
+
+
+.help .help-container {
+    height:400px;  
+}
+
+.help .help-item:before {
+    height: 80%; 
+}
+
+.help  .helpContainer2{
+ height:550px;  
+}
+
+.help  .helpContainer3{
+    height:200px;  
 }

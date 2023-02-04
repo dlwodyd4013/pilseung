@@ -30,7 +30,7 @@ var scroll = function () {
                 location.href = "index.html"
             }
             if (parseInt(moveIndex) === 1) {
-                location.href = "server-info.html"
+                location.href = "contentInfo.html"
             }
             moving(moveIndex);
             return false;
@@ -74,6 +74,7 @@ var scroll = function () {
         });
         $nav.parent("li").eq(index).addClass("on").siblings().removeClass("on");
     };
+
 
 };
 
