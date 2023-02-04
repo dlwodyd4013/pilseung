@@ -59,7 +59,7 @@ a#topBtn {
     line-height: 58px !important;
     font: normal 16px "TTTogether";     
      text-transform: lowercase; 
-    z-index: 9999; /* 포지션을 먼저 지정후 z-좌표(레이어) : 9999입니다. */ 
+    z-index: 9; /* 포지션을 먼저 지정후 z-좌표(레이어) : 9999입니다. */ 
     -webkit-transition: all .8s;
     -moz-transition: all .8s;
     -o-transition: all .8s;
@@ -158,6 +158,20 @@ a#topBtn:hover {
     }
     #ktline-img{
         overflow: scroll;
+    }
+
+    #topBtn img{
+        width: 60px;
+        height: 70px;
+    }
+    a#topBtn{
+        right: 40px;
+    }
+    .col-sm-15{
+        width: 300px;
+    }
+    .help .help-item .inform .title{
+        font-size: 1.1rem;
     }
 }
 #world-map {
@@ -637,6 +651,13 @@ a:hover{
    #owl-demo , #owl-demo img.img-responsive{
     max-height:250px;
  }
+   .help .help-item .inform .title{
+        font-size: 1.1rem;
+    }
+    .help .help-item .inform .description {
+    font-size: 0.8.rem;
+   
+    }
 }
 
 @media (max-width:500px){

@@ -26,10 +26,10 @@ $(function () {
     });
 
     $("#topBtn").click(function () {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 400);
-        return false;
+        // $('html, body').animate({
+        //     scrollTop: 0
+        // }, 400);
+        // return false;
     });
 
     $("#nav-toggle").click(function () {
