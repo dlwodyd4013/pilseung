@@ -61,16 +61,16 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 								</button>
 								<ul class="main-menu">
 									<li class="menu-item">
-										<a href="index.html" class="goScroll">서버정보</a>
+										<a href="serverInfo.html" class="goScroll">서버정보</a>
 									</li>
 									<li class="menu-item">
 										<a href="contentInfo.html" class="goScroll">컨텐츠정보</a>
 									</li>
-									<li class="menu-item goParentScroll">
-									  <a href="huntingGround.html" class="goScroll">사냥터정보</a>
+									<li class="menu-item on goParentScroll">
+									  <a href="bossInfo.html" class="goScroll">사냥터정보</a>
 									</li>					
 									<li class="menu-item on">
-										<a href="bossInfo.html" class="goScroll">보스정보</a>
+										<a href="bossInfo.html#boss" class="goScroll">보스정보</a>
 									</li>	
 									<li class="menu-item goParentScroll">
 										<a href="index.html#download" class="goScroll">다운로드</a>
@@ -104,16 +104,16 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 							</button>
 							<div class="main-menu">
 								<div class="menu-item ">
-									<a href="index.html">서버정보</a>
+									<a href="serverInfo.html">서버정보</a>
 								</div>
 								<div class="menu-item">
 									<a href="contentInfo.html">컨텐츠정보</a>
 								</div>
 								<div class="menu-item">
-									  <a href="huntingGround.html" class="goScroll" onclick="goClose()">사냥터정보</a>									
+									  <a href="bossInfo.html" class="goScroll" onclick="goClose()">사냥터정보</a>									
 								</div>
 								<div class="menu-item">
-									<a href="bossInfo.html" class="goScroll">보스정보</a>
+									<a href="bossInfo.html#boss" class="goScroll">보스정보</a>
 								</div>	
 								<div class="menu-item">
 									<a href="index.html#download" class="goScroll">다운로드</a>
@@ -159,9 +159,10 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 					</div>
 
 
-					<div class="col-sm-12 mt-5  wow  fadeInUp fast animated">
-						<div class="service-section section-padding-0" >
-							<div class="item-2">
+
+					<div class="col-sm-12 mt-5  wow  fadeInUp fast animated"   id="boss"   style="padding-top: 100px !important;">
+						<div class="service-section section-padding-0"  >
+							<div class="item-2" >
 								<a href="#" onclick="return false" class="card">
 									<img src="./asset/images/a16.jpg" />		
 								</a>
@@ -199,7 +200,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <div id="download">&nbsp;</div>	
 
-	<section class="services sec-normal motpath sec-bg4 " id="download-section" style="padding-top: 0;background: #f6f6f6;" >
+	<!--
+		 <section class="services sec-normal motpath sec-bg4 " id="download-section" style="padding-top: 0;background: #f6f6f6;" >
 		<div class="container cnt03" >
 			<div class="service-wrap" id="download-div">
 				<div style="height:60px;" >&nbsp;</div>
@@ -222,26 +224,7 @@ box-sizing: border-box; font-size: 13px; letter-spacing: 0px; line-height: 1.69;
 
 <br>
 
-<div style="margin-bottom: 20px;">
-<a href="https://drive.google.com/file/d/1PZfr5zxRI-8B_akCWInIb0ywgX5-mdG2/view?usp=share_link" target="_blank">
-	<img alt="다운로드1"  data-original-height="1373" data-original-width="1903" 
-	src="./asset/images/a18.jpg">
-</a>
-</div>
 
-<div style="margin-bottom: 20px;">
-<a href="https://drive.google.com/file/d/15ZcXyHCckf5N4ty18sxLnsPVxKiD5q7X/view?usp=share_link" target="_blank">
-	<img alt="다운로드2"  data-original-height="1373" data-original-width="1903" 
-	src="./asset/images/a19.jpg">
-</a>
-</div>
-
-<div style="margin-bottom: 20px;">
-<a href="https://drive.google.com/file/d/1GbrHwJT2hqqYRut1Wg3xVXkVl-zL3BRv/view?usp=share_link" target="_blank">
-	<img alt="다운로드3"  data-original-height="1373" data-original-width="1903" 
-	src="./asset/images/a20.jpg">
-</a>
-</div>
 
 
 
@@ -250,7 +233,7 @@ box-sizing: border-box; font-size: 13px; letter-spacing: 0px; line-height: 1.69;
 		</div>
 		</div>
 	</section>
-	
+	 -->
 	
 	
 
@@ -275,7 +258,7 @@ box-sizing: border-box; font-size: 13px; letter-spacing: 0px; line-height: 1.69;
 	<script defer src="./asset/js/bootstrap.min.js"></script>	
 	<script defer src="./asset/js/scripts.min.js"></script>
 	 <script defer src="./asset/js/custom.js"></script>	 	
-	<script defer src="./asset/js/scroll-menu.js"></script>
+	<!-- <script defer src="./asset/js/scroll-menu.js"></script> -->
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
